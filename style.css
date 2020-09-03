@@ -1,0 +1,22 @@
+body{
+    background-color: #ffffff;
+    animation-name: colorchange ;
+    animation-duration: 11s;
+    animation-delay:0s ;
+    animation-iteration-count: infinite;
+}
+
+@keyframes colorchange{
+    0% {background-color: #EC7063;}
+    10% {background-color:#A569BD  ;}
+    20% {background-color:#5DADE2  ;}
+    30% {background-color: #48C9B0 ;}
+    40% {background-color: #52BE80 ;}
+    50% {background-color: #F4D03F;}
+    60% {background-color: #EB984E;}
+    70% {background-color:#DC7633 ;}
+    80% {background-color:#C0392B ;}
+    90% {background-color: #7D3C98;}
+    100% {background-color: #EC7063;}
+}
+
